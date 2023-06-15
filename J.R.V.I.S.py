@@ -6,7 +6,7 @@ import webbrowser
 import subprocess # you will only need this library for linux distributions
 import os 
 
-engine = pyttsx3.init('espeak') # for windows engine = pyttsx3.init()  
+engine = pyttsx3.init('espeak') # for windows use engine = pyttsx3.init()  
 engine.setProperty('rate', 125)
 voices = engine.getProperty('voices')
 engine.setProperty('voice', 'en-us1')
