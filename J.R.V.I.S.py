@@ -28,7 +28,7 @@ def wishMe():
     else:
         speak("Good Evening!")
 
-    speak("I am Jarvis,  Please tell me How may i help you today?")
+    speak("I am Jarvis, Please tell me How may i help you today?")
 
 def takecommand():
     # It takes microphone input from the user and returns string output
@@ -50,6 +50,7 @@ def takecommand():
 
 
 if __name__ =="__main__":
+    wishme()
     while True:
         query = takecommand().lower()
         
